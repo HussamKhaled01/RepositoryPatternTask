@@ -4,10 +4,10 @@ namespace RepositoryPatternTask.Services.Categories
 {
     public interface ICategoryService
     {
-        Task<List<Category>> GetAllAsync();
-        Task<Category> GetByIdAsync(string id);
-        Task CreateAsync(Category category);
-        Task UpdateAsync(Category category);
-        Task DeleteAsync(string id);
+        public Task<List<Category>> GetAllAsync();
+        public Task<Category> GetByIdAsync(string id);
+        public Task CreateAsync(Category category);
+        public Task UpdateAsync(Category category);
+        public Task DeleteAsync(string id);
     }
 }

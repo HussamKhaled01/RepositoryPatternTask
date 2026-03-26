@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="RepositoryPatternTask.Tests/RepositoryPatternTask.Tests.csproj" Id="470fd41c-daca-4bcd-bf1b-250026d90f93" />
   <Project Path="RepositoryPatternTask/RepositoryPatternTask.csproj" />
 </Solution>
